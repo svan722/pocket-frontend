@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'inter';
+    src: url('./assets/font/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+* {
+    font-family: 'inter', sans-serif;
+    color: white;
+}
+body {
+    /* fix for iOS Safari */
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    background: #93cff9;
+    background-color: #93cff9;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
